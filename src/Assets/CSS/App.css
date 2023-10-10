@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+  --primary-color: #000;
+  --background-color: #ebf0ff;
+  --font-size: 16px;
+  --font-family: "Inter", sans-serif;
+  max-width: 2560px;
+  margin: auto;
+}
+
+body {
+  padding: 60px 120px;
+  background: var(--background-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+.container {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 112px;
+  width: 100%;
+}
+
+.first-gradient {
+  position: absolute;
+  top: 360px;
+  left: -350px;
+  width: 634px;
+  height: 634px;
+  flex-shrink: 0;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #ffdf7c 0%,
+    rgba(246, 251, 248, 0) 100%
+  );
+  z-index: -1;
+}
+
+.second-gradient {
+  position: absolute;
+  top: -100px;
+  left: -50px;
+  width: 472.74px;
+  height: 500px;
+  flex-shrink: 0;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #ffdf7c 0%,
+    rgba(246, 251, 248, 0) 100%
+  );
+  z-index: -1;
+}
+
+.third-gradient {
+  position: absolute;
+  top: 900px;
+  left: -30px;
+  width: 400px;
+  height: 300px;
+  flex-shrink: 0;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #ffdf7c 0%,
+    rgba(246, 251, 248, 0) 100%
+  );
+  z-index: -1;
+}
+
+@media (max-width: 1112px) {
+  .third-gradient {
+    /* top: 900px; */
+    left: -100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .second-gradient {
+    width: 210.74px;
+    height: 250px;
+  }
+
+  .third-gradient {
+    width: 180.74px;
+    height: 250px;
+    left: 0;
+  }
+
+  .first-gradient {
+    width: 210.74px;
+    height: 250px;
+    left: 0;
+  }
+}

@@ -1,0 +1,158 @@
+.trusted-section {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  width: auto;
+}
+
+.trusted-main-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.trusted-heading {
+  color: #000;
+  font-family: Inter;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.trusted-text {
+  color: #515151;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 441px;
+}
+
+.slider-section {
+  display: flex;
+  position: relative;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-elements {
+  display: flex;
+  width: 300px;
+  height: 150px;
+  padding: 46.964px 18.753px 46.964px 18.754px;
+  justify-content: center;
+  align-items: center;
+}
+
+.c {
+  position: absolute;
+  left: 65%;
+}
+
+.oca {
+  position: absolute;
+  left: 68%;
+}
+
+.dot {
+  position: absolute;
+  left: 78.9%;
+  top: 40%;
+}
+
+.cola-c {
+  position: absolute;
+  left: 79%;
+}
+
+.ola {
+  position: absolute;
+  left: 83.5%;
+}
+
+.upper-item {
+  position: absolute;
+  left: 90.5%;
+  top: 30%;
+}
+
+.Slider-content > img {
+  display: inline;
+  margin: auto auto;
+  width: auto;
+}
+
+.trusted-gradient-1 {
+  position: absolute;
+  /* top: 0%; */
+  left: 45%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #fab7b8 0%,
+    rgba(246, 251, 248, 0) 100%
+  );
+  width: 634px;
+  height: 634px;
+  flex-shrink: 0;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .trusted-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .trusted-main-heading {
+    justify-content: center;
+  }
+
+  .trusted-heading {
+    font-size: 24px;
+  }
+
+  .trusted-text {
+    font-size: 14px;
+  }
+
+  .trusted-svg {
+    width: 122px;
+  }
+}
+
+.slide-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+.prev-arrow {
+  left: -40px;
+  transform: rotate(-45deg);
+}
+.next-arrow {
+  right: -40px;
+  transform: rotate(135deg);
+}
+
+.prev-arrow,
+.next-arrow {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #5380ea;
+  border-left: 2px solid #5380ea;
+  border-right: none;
+  border-bottom: none;
+  background-color: transparent;
+  cursor: pointer;
+}
