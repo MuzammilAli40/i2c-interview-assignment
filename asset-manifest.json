@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/12c-interview-assignment/static/css/main.65cad272.css",
+    "main.js": "/12c-interview-assignment/static/js/main.c1f8afca.js",
+    "static/js/787.306b45b4.chunk.js": "/12c-interview-assignment/static/js/787.306b45b4.chunk.js",
+    "static/media/cup.png": "/12c-interview-assignment/static/media/cup.42a32cfe2682b6106865.png",
+    "static/media/bars.png": "/12c-interview-assignment/static/media/bars.09ed49389b096aae6dae.png",
+    "static/media/lock.png": "/12c-interview-assignment/static/media/lock.c543baf4af6cce3ae196.png",
+    "static/media/investment.png": "/12c-interview-assignment/static/media/investment.eea7c3af81229a46376d.png",
+    "static/media/form-image.png": "/12c-interview-assignment/static/media/form-image.5d8bd704aa4c0b0d492a.png",
+    "static/media/avatar1.png": "/12c-interview-assignment/static/media/avatar1.09da058e4518c9e83d7d.png",
+    "static/media/avatar2.png": "/12c-interview-assignment/static/media/avatar2.22248d5e68269a1721e9.png",
+    "static/media/avatar3.png": "/12c-interview-assignment/static/media/avatar3.9b17adb19bfb16c11ed8.png",
+    "static/media/coca-cola-logo.svg": "/12c-interview-assignment/static/media/coca-cola-logo.6252794cb915f687e8fd0bdeccb7ece4.svg",
+    "static/media/microsoft-logo-svgrepo-com.svg": "/12c-interview-assignment/static/media/microsoft-logo-svgrepo-com.cabcfc7876c2fc9d6f10eb299464d89a.svg",
+    "static/media/slick.svg": "/12c-interview-assignment/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/12c-interview-assignment/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/12c-interview-assignment/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/12c-interview-assignment/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/twitter.svg": "/12c-interview-assignment/static/media/twitter.67a756ba4acf8592d055244d0eefb397.svg",
+    "index.html": "/12c-interview-assignment/index.html",
+    "main.65cad272.css.map": "/12c-interview-assignment/static/css/main.65cad272.css.map",
+    "main.c1f8afca.js.map": "/12c-interview-assignment/static/js/main.c1f8afca.js.map",
+    "787.306b45b4.chunk.js.map": "/12c-interview-assignment/static/js/787.306b45b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65cad272.css",
+    "static/js/main.c1f8afca.js"
+  ]
+}
